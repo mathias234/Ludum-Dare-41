@@ -113,7 +113,6 @@ void Game::UpdateWater()
 
 void Game::Update(Camera& camera, float deltaTime)
 {
-	std::cout << speed << std::endl;
 	if(countDown > 0)
 	{
 		countDown -= deltaTime;
@@ -141,7 +140,6 @@ void Game::Update(Camera& camera, float deltaTime)
 	if (glm::distance(player->GetPosition(), sharkObject->GetPosition()) <= 5.0f)
 	{
 		// Game Over!
-		std::cout << "Game Over! " << std::endl;
 		sharkSpeed = 0;
 		speed = 0;
 		sharkObject->SetPosition(player->GetPosition() + Vector3f(0, 0, 5));

@@ -127,7 +127,14 @@ void RenderScreenQuad() {
 }
 
 
-int main() {
+int main(int argc, char* argv[]) {
+	// Check the number of parameters
+	if (argc == 3) {
+		std::cout << "Launching at resolution: " << argv[1] << " x " << argv[2] << std::endl;
+		winWidth = std::stoi(argv[1]);
+		winHeight = std::stoi(argv[2]);
+	}
+
     /* Settings */
 
 
