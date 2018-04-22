@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="3DGameEngine" targetName="3DGameEngine" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" GENERATION_DIR="build/release" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_DIR="build/debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a44d59a4-4250-49bc-9618-4f9f3f42c0f1" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-release/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-default/" />
+    <ignored path="$PROJECT_DIR$/build/debug/" />
+    <ignored path="$PROJECT_DIR$/build/release/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DirectionalLight.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Src/lighting/DirectionalLight.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="869">
+              <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
+              <folding>
+                <element signature="e#42#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Common.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Src/Common.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Src/Application.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3694">
+              <caret line="380" column="47" selection-start-line="380" selection-start-column="47" selection-end-line="380" selection-end-column="47" />
+              <folding>
+                <element signature="e#82#102#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Camera.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Src/Camera.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Camera.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Src/Camera.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.glsl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/Main.glsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1649">
+              <caret line="97" column="1" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Model.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Src/Model.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="136" column="48" selection-start-line="136" selection-start-column="48" selection-end-line="136" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="glew.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Dependencies/glew-2.1.0/include/GL/glew.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="667" column="21" selection-start-line="667" selection-start-column="8" selection-end-line="667" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Model.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Src/Model.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>m_RendererId</find>
+      <find>glViewport</find>
+      <find>Shader</find>
+      <find>SetUniform2</find>
+      <find>voi</find>
+      <find>sampler2D</find>
+      <find>var</find>
+      <find>NORMAL0</find>
+      <find>inTriangle</find>
+      <find>BrickSmashing3D</find>
+      <find>specTex</find>
+      <find>DiffuseFactor</find>
+      <find>ViewDir</find>
+      <find>tbnMatrix</find>
+      <find>image</find>
+      <find>texCoords</find>
+      <find>u_Image</find>
+      <find>glEnable</find>
+      <find>glDisable(GL_DEPTH_TEST);</find>
+      <find>GL_DEPTH_TEST</find>
+      <find>506</find>
+      <find>u_NearShadowMap</find>
+      <find>u_Shado</find>
+      <find>fragPosLightSpace</find>
+      <find>fragPosNearLightSpace</find>
+      <find>nearShadowMap</find>
+      <find>int main(</find>
+      <find>ParallaxMapping</find>
+      <find>testmodel-&gt;draw</find>
+      <find>you may modif</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/nanogui" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Src/RenderTarget.h" />
+        <option value="$PROJECT_DIR$/Src/Platform.cpp" />
+        <option value="$PROJECT_DIR$/Src/ObjReader.h" />
+        <option value="$PROJECT_DIR$/Src/IndexModel.h" />
+        <option value="$PROJECT_DIR$/Src/IndexModel.cpp" />
+        <option value="$PROJECT_DIR$/Src/Player.cpp" />
+        <option value="$PROJECT_DIR$/Src/Renderer.cpp" />
+        <option value="$PROJECT_DIR$/Src/Renderer.h" />
+        <option value="$PROJECT_DIR$/Src/ObjReader.cpp" />
+        <option value="$PROJECT_DIR$/Src/vendor/OBJ_Loader.h" />
+        <option value="$PROJECT_DIR$/Src/Camera.h" />
+        <option value="$PROJECT_DIR$/Src/OBJ_Loader.h" />
+        <option value="$PROJECT_DIR$/Src/vendor/tinyobjloader/tiny_obj_loader.h" />
+        <option value="$PROJECT_DIR$/Src/vendor/tinyobjloader/tiny_obj_loader.cpp" />
+        <option value="$PROJECT_DIR$/Src/DepthMap.h" />
+        <option value="$PROJECT_DIR$/Src/Camera.cpp" />
+        <option value="$PROJECT_DIR$/res/Main.shader" />
+        <option value="$PROJECT_DIR$/Src/DepthMap.cpp" />
+        <option value="$PROJECT_DIR$/res/ScreenShader.glsl" />
+        <option value="$PROJECT_DIR$/res/ScreenShaderHDRToneMapped.glsl" />
+        <option value="$PROJECT_DIR$/res/DepthMap.glsl" />
+        <option value="$PROJECT_DIR$/res/ScreenShaderHDRToneMappedBlur.glsl" />
+        <option value="$PROJECT_DIR$/res/test.mtl" />
+        <option value="$PROJECT_DIR$/Src/Raycast.h" />
+        <option value="$PROJECT_DIR$/Src/EnumMapper.h" />
+        <option value="$PROJECT_DIR$/Src/vendor/imgui/misc/freetype/imgui_freetype.h" />
+        <option value="$PROJECT_DIR$/Src/vendor/imgui/misc/freetype/imgui_freetype.cpp" />
+        <option value="$PROJECT_DIR$/Src/vendor/imgui/misc/fonts/binary_to_compressed_c.cpp" />
+        <option value="$PROJECT_DIR$/Src/Shader.h" />
+        <option value="$PROJECT_DIR$/res/FontShader.glsl" />
+        <option value="$PROJECT_DIR$/Src/UIRenderer.h" />
+        <option value="$PROJECT_DIR$/Src/UIRenderer.cpp" />
+        <option value="$PROJECT_DIR$/Src/FrameBuffer.h" />
+        <option value="$PROJECT_DIR$/res/FinalScreen.glsl" />
+        <option value="$PROJECT_DIR$/res/BlurShader.glsl" />
+        <option value="$PROJECT_DIR$/Src/vendor/tinydir/tinydir.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Src/Texture.h" />
+        <option value="$PROJECT_DIR$/Src/Texture.cpp" />
+        <option value="$PROJECT_DIR$/Src/GameObject.cpp" />
+        <option value="$PROJECT_DIR$/Src/GameObject.h" />
+        <option value="$PROJECT_DIR$/Src/DirectoryInspector.h" />
+        <option value="$PROJECT_DIR$/Src/Shader.cpp" />
+        <option value="$PROJECT_DIR$/Src/FrameBuffer.cpp" />
+        <option value="$PROJECT_DIR$/Src/lighting/DirectionalLight.h" />
+        <option value="$PROJECT_DIR$/Src/Common.h" />
+        <option value="$PROJECT_DIR$/Src/lighting/DirectionalLight.cpp" />
+        <option value="$PROJECT_DIR$/Src/Model.h" />
+        <option value="$PROJECT_DIR$/res/Main.glsl" />
+        <option value="$PROJECT_DIR$/Src/Application.cpp" />
+        <option value="$PROJECT_DIR$/Src/Model.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="OCFindUsagesOptions" text="false" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2108" />
+    <option name="y" value="-8" />
+    <option name="width" value="1736" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Project Source Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="CppGameEngine" type="cbb8eebc:String" user="CppGameEngine" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="CppGameEngine" type="cbb8eebc:String" user="CppGameEngine" />
+              <item name="Src" type="cbb8eebc:String" user="Src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="CppGameEngine" type="cbb8eebc:String" user="CppGameEngine" />
+              <item name="Src" type="cbb8eebc:String" user="Src" />
+              <item name="vendor" type="cbb8eebc:String" user="vendor" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="CppGameEngine" type="cbb8eebc:String" user="CppGameEngine" />
+              <item name="Src" type="cbb8eebc:String" user="Src" />
+              <item name="vendor" type="cbb8eebc:String" user="vendor" />
+              <item name="imgui" type="cbb8eebc:String" user="imgui" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="CppGameEngine" type="cbb8eebc:String" user="CppGameEngine" />
+              <item name="Src" type="cbb8eebc:String" user="Src" />
+              <item name="vendor" type="cbb8eebc:String" user="vendor" />
+              <item name="imgui" type="cbb8eebc:String" user="imgui" />
+              <item name="misc" type="cbb8eebc:String" user="misc" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="CppGameEngine" type="cbb8eebc:String" user="CppGameEngine" />
+              <item name="Src" type="cbb8eebc:String" user="Src" />
+              <item name="vendor" type="cbb8eebc:String" user="vendor" />
+              <item name="imgui" type="cbb8eebc:String" user="imgui" />
+              <item name="misc" type="cbb8eebc:String" user="misc" />
+              <item name="freetype" type="cbb8eebc:String" user="freetype" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="CppGameEngine" type="cbb8eebc:String" user="CppGameEngine" />
+              <item name="Src" type="cbb8eebc:String" user="Src" />
+              <item name="vendor" type="cbb8eebc:String" user="vendor" />
+              <item name="imgui" type="cbb8eebc:String" user="imgui" />
+              <item name="misc" type="cbb8eebc:String" user="misc" />
+              <item name="natvis" type="cbb8eebc:String" user="natvis" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Project Non-Source Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="CppGameEngine" type="cbb8eebc:String" user="CppGameEngine" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="CppGameEngine" type="cbb8eebc:String" user="CppGameEngine" />
+              <item name="Src" type="cbb8eebc:String" user="Src" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="CppGameEngine" type="cbb8eebc:String" user="CppGameEngine" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="CppGameEngine" type="cbb8eebc:String" user="CppGameEngine" />
+              <item name="Src" type="cbb8eebc:String" user="Src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="CppGameEngine" type="cbb8eebc:String" user="CppGameEngine" />
+              <item name="Src" type="cbb8eebc:String" user="Src" />
+              <item name="vendor" type="cbb8eebc:String" user="vendor" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="CppGameEngine" type="cbb8eebc:String" user="CppGameEngine" />
+              <item name="Src" type="cbb8eebc:String" user="Src" />
+              <item name="vendor" type="cbb8eebc:String" user="vendor" />
+              <item name="imgui" type="cbb8eebc:String" user="imgui" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="CppGameEngine" type="cbb8eebc:String" user="CppGameEngine" />
+              <item name="Src" type="cbb8eebc:String" user="Src" />
+              <item name="vendor" type="cbb8eebc:String" user="vendor" />
+              <item name="imgui" type="cbb8eebc:String" user="imgui" />
+              <item name="misc" type="cbb8eebc:String" user="misc" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="CppGameEngine" type="cbb8eebc:String" user="CppGameEngine" />
+              <item name="Src" type="cbb8eebc:String" user="Src" />
+              <item name="vendor" type="cbb8eebc:String" user="vendor" />
+              <item name="imgui" type="cbb8eebc:String" user="imgui" />
+              <item name="misc" type="cbb8eebc:String" user="misc" />
+              <item name="fonts" type="cbb8eebc:String" user="fonts" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="CppGameEngine" type="cbb8eebc:String" user="CppGameEngine" />
+              <item name="Src" type="cbb8eebc:String" user="Src" />
+              <item name="vendor" type="cbb8eebc:String" user="vendor" />
+              <item name="imgui" type="cbb8eebc:String" user="imgui" />
+              <item name="misc" type="cbb8eebc:String" user="misc" />
+              <item name="freetype" type="cbb8eebc:String" user="freetype" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="CppGameEngine" type="cbb8eebc:String" user="CppGameEngine" />
+              <item name="Src" type="cbb8eebc:String" user="Src" />
+              <item name="vendor" type="cbb8eebc:String" user="vendor" />
+              <item name="imgui" type="cbb8eebc:String" user="imgui" />
+              <item name="misc" type="cbb8eebc:String" user="misc" />
+              <item name="natvis" type="cbb8eebc:String" user="natvis" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="3DGameEngine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CppGameEngine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="3DGameEngine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CppGameEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="3DGameEngine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CppGameEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="Src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="3DGameEngine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CppGameEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="Src" type="462c0819:PsiDirectoryNode" />
+              <item name="lighting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="3DGameEngine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CppGameEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="Src" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/freetype/CMakeLists.txt" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\dev\3DGameCpp\CppGameEngine\res" />
+      <recent name="C:\Users\matha\Documents\GitHub\3DGameCpp\BrickSmashing3D\res" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\dev\3DGameCpp\BrickSmashing3D\Src\vendor" />
+      <recent name="C:\Users\matha\Documents\GitHub\3DGameCpp\BrickSmashing3D\Src" />
+      <recent name="G:\dev\BrickSmashing3D\BrickSmashing3D" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.3DGameEngine">
+    <configuration name="3DGameEngine" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="3DGameEngine" TARGET_NAME="3DGameEngine" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="3DGameEngine" RUN_TARGET_NAME="3DGameEngine" />
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="3DGameEngine" RUN_TARGET_NAME="3DGameEngine" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.3DGameEngine" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a44d59a4-4250-49bc-9618-4f9f3f42c0f1" name="Default" comment="" />
+      <created>1518968856743</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1518968856743</updated>
+      <workItem from="1518968859145" duration="834000" />
+      <workItem from="1518969719293" duration="3319000" />
+      <workItem from="1518976411215" duration="6672000" />
+      <workItem from="1518985153089" duration="6738000" />
+      <workItem from="1519046593708" duration="5666000" />
+      <workItem from="1519075207007" duration="1001000" />
+      <workItem from="1520521247262" duration="1996000" />
+      <workItem from="1520527857865" duration="195000" />
+      <workItem from="1520528088391" duration="63000" />
+      <workItem from="1520807411824" duration="1975000" />
+      <workItem from="1520888240138" duration="1212000" />
+      <workItem from="1520977427024" duration="18596000" />
+      <workItem from="1521033682562" duration="8446000" />
+      <workItem from="1521082988245" duration="1183000" />
+      <workItem from="1521116245614" duration="1555000" />
+      <workItem from="1521166999609" duration="23649000" />
+      <workItem from="1521306540257" duration="10481000" />
+      <workItem from="1521336541471" duration="3392000" />
+      <workItem from="1521403669513" duration="28000" />
+      <workItem from="1521403741370" duration="1910000" />
+      <workItem from="1521406790712" duration="157000" />
+      <workItem from="1521408325840" duration="2867000" />
+      <workItem from="1521412334254" duration="1712000" />
+      <workItem from="1521415361442" duration="3086000" />
+      <workItem from="1521462527416" duration="391000" />
+      <workItem from="1521487437762" duration="209000" />
+      <workItem from="1521487770959" duration="65000" />
+      <workItem from="1521487855230" duration="2476000" />
+      <workItem from="1521554327554" duration="1145000" />
+      <workItem from="1521556463531" duration="2959000" />
+      <workItem from="1521562328371" duration="77000" />
+      <workItem from="1521568080888" duration="4481000" />
+      <workItem from="1521573340227" duration="51000" />
+      <workItem from="1521578843287" duration="6929000" />
+      <workItem from="1521645434365" duration="5623000" />
+      <workItem from="1521810885776" duration="812000" />
+      <workItem from="1521811886540" duration="4290000" />
+      <workItem from="1521822636848" duration="428000" />
+      <workItem from="1521831205109" duration="4079000" />
+      <workItem from="1521844132420" duration="1215000" />
+      <workItem from="1521913110120" duration="2563000" />
+      <workItem from="1521931785591" duration="5558000" />
+      <workItem from="1521971839929" duration="9213000" />
+      <workItem from="1522014423920" duration="419000" />
+      <workItem from="1522014954270" duration="6646000" />
+      <workItem from="1522096287045" duration="3694000" />
+      <workItem from="1522148572132" duration="1373000" />
+      <workItem from="1522158436039" duration="1862000" />
+      <workItem from="1522167614624" duration="1300000" />
+      <workItem from="1522172064317" duration="7000" />
+      <workItem from="1522238664332" duration="885000" />
+      <workItem from="1522242106240" duration="1039000" />
+      <workItem from="1522245411232" duration="108000" />
+      <workItem from="1522267416787" duration="179000" />
+      <workItem from="1522267700653" duration="109000" />
+      <workItem from="1522314347036" duration="725000" />
+      <workItem from="1522667840089" duration="1192000" />
+      <workItem from="1522768042903" duration="31000" />
+      <workItem from="1522799002038" duration="386000" />
+      <workItem from="1522928116716" duration="54000" />
+      <workItem from="1523016622710" duration="223000" />
+      <workItem from="1523026210740" duration="93000" />
+      <workItem from="1523372743229" duration="714000" />
+      <workItem from="1523391981017" duration="531000" />
+      <workItem from="1523450376388" duration="811000" />
+      <workItem from="1523472463749" duration="1380000" />
+      <workItem from="1523720270063" duration="1856000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="188356000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16822916" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.3280757" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5019531" side_tool="true" weight="0.3048276" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" weight="0.32948583" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49791667" weight="0.33753943" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39011568" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32597265" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49804688" weight="0.30283913" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/nanogui" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="53" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="m_Loader.LoadedMeshes[0]" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/res/Main.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="97" column="1" lean-forward="true" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/vendor/tinyobjloader/tiny_obj_loader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Dependencies/glm-0.9.9-a2/glm/gtc/matrix_transform.inl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="76" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/vendor/tinyobjloader/tiny_obj_loader.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3077">
+          <caret line="181" column="47" selection-start-line="181" selection-start-column="43" selection-end-line="181" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/ScreenShaderHDRToneMapped.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/ScreenShader.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/test.mtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/IndexModel.cpp" />
+    <entry file="file://$PROJECT_DIR$/Src/InputManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/Raycast.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/Renderer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/i686-w64-mingw32/include/_mingw.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="538" column="22" lean-forward="true" selection-start-line="538" selection-start-column="22" selection-end-line="538" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/EnumMapper.h" />
+    <entry file="file://$PROJECT_DIR$/res/DepthMap.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/vendor/imgui/misc/freetype/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/vendor/imgui/misc/fonts/binary_to_compressed_c.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="9" selection-start-line="33" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/vendor/imgui/misc/freetype/imgui_freetype.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="228" column="9" selection-start-line="228" selection-start-column="9" selection-end-line="228" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/vendor/imgui/misc/freetype/imgui_freetype.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/UIRenderer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/FrameBuffer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/FinalScreen.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/imgui_memory_editor.h" />
+    <entry file="file://$PROJECT_DIR$/res/BlurShader.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/ImGuiShader.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/vendor/tinydir/tinydir.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13872">
+          <caret line="816" selection-start-line="816" selection-end-line="816" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/Shader.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/vendor/imgui/imgui_internal.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17119">
+          <caret line="1007" column="12" selection-start-line="1007" selection-start-column="12" selection-end-line="1007" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/Texture.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Dependencies/glm-0.9.9-a2/glm/gtc/quaternion.inl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="614" column="37" selection-start-line="614" selection-start-column="37" selection-end-line="614" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/vendor/imgui/TODO.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/DirectoryInspector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+          <folding>
+            <element signature="e#55#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/vendor/imgui/imgui_draw.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4080">
+          <caret line="240" column="12" selection-start-line="240" selection-start-column="12" selection-end-line="240" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/vendor/imgui/imgui.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16201">
+          <caret line="953" column="16" selection-start-line="953" selection-start-column="3" selection-end-line="953" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/GameObject.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/vendor/imgui/imgui_demo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37553">
+          <caret line="2209" column="45" selection-start-line="2209" selection-start-column="45" selection-end-line="2209" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/GameObject.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/Texture.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/Shader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3961">
+          <caret line="233" column="36" selection-start-line="233" selection-start-column="36" selection-end-line="233" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/FrameBuffer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="166" column="15" selection-start-line="166" selection-start-column="15" selection-end-line="166" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/lighting/DirectionalLight.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/Common.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/Model.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/Main.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="97" column="1" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/UIRenderer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="134" column="17" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/Camera.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/Camera.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/lighting/DirectionalLight.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="869">
+          <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
+          <folding>
+            <element signature="e#42#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/Application.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3694">
+          <caret line="380" column="47" selection-start-line="380" selection-start-column="47" selection-end-line="380" selection-end-column="47" />
+          <folding>
+            <element signature="e#82#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Src/Model.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="136" column="48" selection-start-line="136" selection-start-column="48" selection-end-line="136" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Dependencies/glew-2.1.0/include/GL/glew.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="667" column="21" selection-start-line="667" selection-start-column="8" selection-end-line="667" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
